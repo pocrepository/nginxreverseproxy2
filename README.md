@@ -43,3 +43,6 @@ cd proxy
 docker-compose build
 
 docker-compose up -d
+
+Reference: adapted from https://www.atlantic.net/dedicated-server-hosting/how-to-deploy-nginx-reverse-proxy-in-docker-on-ubuntu-20-04/
+
