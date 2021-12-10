@@ -34,6 +34,22 @@ cd website2
 
 docker-compose build
 
+******test reverse proxy using curl command
+curl website1.test
+curl website2.test
+
+Note: the output of curl commands should display html code. example shown below.
+<!DOCTYPE html>
+<html>
+<head>
+<title>First Website to test NGINX REVERSE PROXY</title>
+</head>
+<body>
+<h1>Hello! This is my first website.</h1>
+</body>
+</html>
+
+
 docker-compose up -d
 
 cd ..
